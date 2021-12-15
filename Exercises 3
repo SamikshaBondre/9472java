@@ -1,0 +1,61 @@
+ex:1) Write a similar programme for the object Boy and value of int
+a =5. Show the resulting outputs
+Solution:
+import java.io.*;
+interface in1
+{
+final int a = 5;
+void display();
+}
+class testClass implements in1
+{
+public void display()
+{
+System.out.println("Boy");
+}
+public static void main (String[] args)
+{
+testClass t = new testClass();
+t.display();
+System.out.println(a);
+}
+}
+Output:Boy
+5
+
+
+ ex:2)Write the same programme with integer
+values 40, 70 and 30. Execute the programme again for integer values 80, 75 and 60. Show the resulting outputs
+ 
+ 
+ 
+class ClassMain{
+void disp(int number){
+System.out.println ("method:" + number);
+}
+void disp(int number1, int number2){
+System.out.println ("method:" + number1 + "," + number2);
+}
+double disp(double number) {
+System.out.println("method:" + number);
+return number;
+}
+}
+class CompileTimePolymorphismDemo
+{
+public static void main (String args [])
+{
+ClassMain obj = new ClassMain();
+double result;
+obj.disp(60);
+obj.disp(70, 50);
+result = obj.disp(6.1);
+System.out.println("Answer is:" + result);
+}
+}
+
+Output:method:60
+method:70,50
+method:6.1
+Answer is:6.1
+
