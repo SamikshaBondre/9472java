@@ -1,0 +1,34 @@
+ex):Write the  programme to create an object of arrays
+with the elements ‘dog’, ‘70’, new StringBuilder("bcd") and the integer 6. Show the resulting output. Repeat the
+same with the elements ‘cat’, ‘22’, new StringBuilder("abc") and the integer 9.
+
+Solution:
+public class Program {
+
+	public static void main(String[] args) {
+
+		Object[] elements = new Object[4];
+
+		elements[0] = "elephant";
+
+		elements[1] = 60;
+
+		elements[2] = new StringBuilder("xyz");
+
+		elements[3] = 3.4;
+
+		for (Object e : elements) {
+
+			System.out.println(e);
+
+		}
+
+	}
+
+}
+Output:
+elephant
+60
+xyz
+3.4
+
