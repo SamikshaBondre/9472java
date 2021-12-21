@@ -1,0 +1,96 @@
+ex1) program in Arraylist.The elements stored in the ArrayList class can be randomly accessed.
+
+Solution:
+mport java.util.*;  
+class TestJavaCollection1{  
+public static void main(String args[]){  
+ArrayList<String> list=new ArrayList<String>();//Creating arraylist  
+list.add("Ravi");//Adding object in arraylist  
+list.add("Vijay");  
+list.add("Ravi");  
+list.add("Ajay");  
+//Traversing list through Iterator  
+Iterator itr=list.iterator();  
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+}  
+}  
+}  
+Output:Ravi
+Vijay
+Ravi
+Ajay
+
+
+ex2) program in Linklist. 
+
+
+mport java.util.*;
+public class TestJavaCollection2 {
+	public static void main(String args[]) {
+		LinkedList<String> al = new LinkedList<String>();
+		al.add("Ravi");
+		al.add("Vijay");
+		al.add("Ravi");
+		al.add("Ajay");
+		Iterator<String> itr = al.iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+}
+
+Output:
+
+
+
+
+
+er3) Program in Vector. 
+
+Solution:
+
+import java.util.*;  
+public class TestJavaCollection3{  
+public static void main(String args[]){  
+Vector<String> v=new Vector<String>();  
+v.add("Ayush");  
+v.add("Amit");  
+v.add("Ashish");  
+v.add("Garima");  
+Iterator<String> itr=v.iterator();  
+while(itr.hasNext()){  
+System.out.println(itr.next());  
+}  
+}  
+}  
+Output:
+Ayush
+Amit
+Ashish
+Garima
+
+ex4) Program in Stack. 
+Solution:
+import java.util.*;
+public class TestJavaCollection4 {
+	public static void main(String args[]) {
+		Stack<String> stack = new Stack<String>();
+		stack.push("Ayush");
+		stack.push("Garvit");
+		stack.push("Amit");
+		stack.push("Ashish");
+		stack.push("Garima");
+		stack.pop();
+		Iterator<String> itr = stack.iterator();
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+}
+Output;
+Ayush
+Garvit
+Amit
+Ashish
+
