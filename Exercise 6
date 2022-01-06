@@ -63,7 +63,9 @@ After swapping(Inside), a = 45 b = 30
 **Now, Before and After swapping values will be different here**:
 After swapping, a = 45 and b is 30
 
-ex4) 
+ex4) write a program for swap two no. using  call by value. 
+Solution:
+
 
 
  
