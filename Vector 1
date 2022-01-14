@@ -6,10 +6,10 @@ public class Vector1 {
 public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		List<Integer> list=new Vector<Integer>();
-		list.add(12);
-		list.add(10);
-		list.add(13);
-		list.add(14);
+		list.add(112);
+		list.add(113);
+		list.add(114);
+		list.add(115);
 		
 		System.out.println("Number present in array are: "+list);
 		
