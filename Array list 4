@@ -4,3 +4,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ArrayLists4 {
+
+Output:
+Before Shorting Array: [12, 11, 13, 14]
+After Shorting Array: [11, 12, 13, 14]
