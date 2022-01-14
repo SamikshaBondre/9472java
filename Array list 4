@@ -4,7 +4,19 @@ import java.util.Collections;
 import java.util.List;
 
 public class ArrayLists4 {
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+List<Integer> list1=new ArrayList<Integer>();
+list1.add(51);
+list1.add(54);
+list1.add(53);
+list1.add(52);
+System.out.println("Before Shorting Array: "+list1);
+Collections.sort(list1);
+System.out.println("After Shorting Array: "+list1);
+	}
+}
 
 Output:
-Before Shorting Array: [12, 11, 13, 14]
-After Shorting Array: [11, 12, 13, 14]
+Before Shorting Array: [51, 54, 53, 52]
+After Shorting Array: [51, 52, 53, 54]
