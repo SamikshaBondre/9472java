@@ -1,3 +1,15 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+
+
+
+
+
+First Array list is: [1, 2, 3, 4]
+Second Array list is: [Vinita, samiksha, gayatri,nikita]
+Copy List1 and List2
+After Copy: 
+[Vinita,samiksha,gayatri,nikita]
+[Vinita,samiksha, gayatri,nikita]
